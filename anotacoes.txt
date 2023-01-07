@@ -1,0 +1,22 @@
+B7Daily #6 - Sistema de Login com React (ContextAPI, Router, Token e Persistência)
+
+https://www.youtube.com/watch?v=iD94avNeoXM&ab_channel=BoniekyLacerda
+
+PASSOS PARA VALIDAR ACESSO
+
+1. Saber que tem um usuario logado
+2. Se tiver, eu tenho que validar este usuario
+3. se sim, libera o acesso
+
+PARA LOGAR
+
+1. Recebe os dados de login
+2. Envia uma requisicao para o BACKEND validar estes dados no banco de dados
+3. Estando corrento, salva-se o alguma referencia ao usuaio no browser
+4. se estiver errado, avisa que esta errado.
+
+PARA DESLOGAR
+
+1. apaga a referencia que existir no browser.
+1.1 Enviar uma requisicao ao BACKEND avisando para destruir aquela referencia
+2. Atualiza a pagina.

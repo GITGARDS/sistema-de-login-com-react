@@ -1,0 +1,15 @@
+{
+  "signin": [
+    {
+      "id": 1,
+      "name": "ards",
+      "email": "ards@email.com",
+      "password": "4353"
+    },
+    {
+      "email": "adrianorogerio@gmail.com",
+      "password": "123",
+      "id": 2
+    }
+  ]
+}
